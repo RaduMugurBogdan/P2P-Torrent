@@ -1,0 +1,29 @@
+PART2PART
+
+I. Aplicatia server
+    Trebuie sa fie capabila sa capteze cereri de la clienti in privinta realizarii urmatoarelor facilitati:
+        -testarea existentei unui anumit document in cadrul retelei monitorizate de acesta
+        -reactualizarea continua a "bazei de date" care contine calculatoarele capabile pentru emiterea unui anumit document(acest lucru este efectuat prin apeluri generate de server catre fiecare client)
+        -crearea de conexiuni intre doi clienti pentru realizarea trasnferului de documente
+        //Serverul trebuie sa realizeze in paralel captarea de cereri de la clienti si testarea existentei unui fisier in retea
+
+
+
+
+II. Aplicatia client
+    Trebuie sa creeze urmatoarele facilitati:
+        -realizarea mentenantei fisierelor active 
+        -cereri de "Download" catre server asupra unui fisier specificat
+        -cereri de "Upload" catrea server asupra unui fisier specificat
+        -conexiuni cu alt client pentru efectuarea preluarii fisierului(ulterior unui schimb de mesaje cu serverul)
+        -odata ce un fisier este captat in sistem acesta trebuie sa poata fi dat mai departe // trebuie sa figureze ca activ pentru server
+        -crearea de fisiere afisate fiecarei descarcari pentru pastrarea de diverse informatii referitoare la retea
+        -optiunea de a opri sau porni accesul serverului la partajarea fisierului
+        
+
+
+
+/**********************************************************************************************************************************************************/
+1. utilizarea ma multor clienti activi pentru descarcarea unui fisier
+2. utilizarea algoritmului Huffman -adaptiv pentru micsorarea traficului        
+

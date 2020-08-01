@@ -1,0 +1,2 @@
+mai trebuie creata si un utilitar care sa ajute la procesul de insertie
+acesta evaleaza fisierul si ii creaza un fisier de tip informatie 
